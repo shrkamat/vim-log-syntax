@@ -23,3 +23,13 @@ hi def link log_warning 	WarningMsg
 
 
 let b:current_syntax = "log"
+
+
+call HighlightCustom('page name is')
+call HighlightCustom('DCTAP-R')
+" call HighlightCustom('NOTIFICATION.*203')
+call HighlightCustom('Notification.*Rece.*CA')
+call HighlightCustom('ctap\/shutdown')
+call HighlightCustom('launchApp :: resetGlobalState')
+" call HighlightCustom('onMilPageIntroFinish')
+call HighlightCustom('handleKey, eventName')
